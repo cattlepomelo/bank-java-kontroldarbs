@@ -16,12 +16,12 @@ class Main {
             switch (cmd) {
                 case "1":
                     System.out.print("\nIevadiet pievienojamo summu: ");
-                    int dep = Double.parseDouble(sc.nextLine());
+                    int dep = (int) Double.parseDouble(sc.nextLine());
                     bankAcount.deposit();
                     break;
                 case "2":
                     System.out.print("\nIevadiet izņemto summu: ");
-                    int wit = Double.parseDouble(sc.nextLine());
+                    int wit = (int) Double.parseDouble(sc.nextLine());
                     bankAcount.withdraw();
                     break;
                 case "3":
