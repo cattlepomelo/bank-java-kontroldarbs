@@ -17,15 +17,15 @@ class Main {
                 case "1":
                     System.out.print("\nIevadiet pievienojamo summu: ");
                     int dep = (int) Double.parseDouble(sc.nextLine());
-                    bankAcount.deposit();
+                    BankAccount.deposit();
                     break;
                 case "2":
                     System.out.print("\nIevadiet izņemto summu: ");
                     int wit = (int) Double.parseDouble(sc.nextLine());
-                    bankAcount.withdraw();
+                    BankAccount.withdraw();
                     break;
                 case "3":
-                    System.out.print("Konta balanss: " + bankAcount.getBalance);
+                    System.out.print("Konta balanss: " + BankAccount.getBalance());
                     break;
                 case "4":
                     System.out.print("Visu labu!");

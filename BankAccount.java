@@ -1,4 +1,4 @@
-class BankAccount {
+public class BankAccount {
     public __construct() {
         balance = 0.0;
     }
